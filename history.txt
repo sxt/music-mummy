@@ -1,0 +1,175 @@
+    1  dmesg
+    2  sstartx
+    3  startx
+    4  sudo halt
+    5  pwd
+    6  ls
+    7  mkdir music
+    8  sudo apt-get update
+    9  sudo apt-get install mpg321
+   10  cd music/
+   11  mpg321 02\ -\ Spitfire.mp3 
+   12  logout
+   13  cd ,us
+   14  cd music/
+   15  mpg321 02\ -\ Spitfire.mp3 
+   16  logout
+   17  cd .mu
+   18  cd music/
+   19  ls
+   20  more play.sh 
+   21  cd music/
+   22  ls -l
+   23  sudo ./play.sh 
+   24  mv 02\ -\ Spitfire.mp3 spitfire.mp3
+   25  sudo ./play.sh 
+   26  nano play.sh 
+   27  sudo ./play.sh 
+   28  mpg321 spitfire.mp3 
+   29  ls /media/
+   30  df
+   31  cd
+   32  cd -
+   33  ls
+   34  ls *.mp3 > playlist.txt
+   35  mpg321 -z --list playlist.txt
+   36  fg
+   37  sudo ./play.sh 
+   38  ps
+   39  fg
+   40  cd music/
+   41  sudo play.sh
+   42  ls
+   43  sudo ./play.sh
+   44  sudo reboot
+   45  cd music/
+   46  sudo ./play.sh 
+   47  more play
+   48  more play.sh 
+   49  sudo  pkill -SIGKILL mpg321
+   50  ./play.sh 
+   51  history |grep play
+   52  ps -eaf |grep play
+   53  sudo  pkill -SIGKILL mpg321
+   54  ps -eaf |grep play
+   55  sud play.sh 
+   56  sudo play.sh 
+   57  sudo ./play.sh 
+   58  sudo  pkill -SIGKILL mpg321
+   59  ls
+   60  more play.sh 
+   61  cp play.sh gpio_check.sh
+   62  chmod +x gpio_check.sh
+   63  nano gpio_check.sh
+   64  sudo ./gpio_check.sh 
+   65  cd ../python_games/
+   66  cd -
+   67  ls
+   68  more gpio_check.sh 
+   69  sudo reboot 
+   70  cd music/
+   71  sudo ./gpio_check.sh 
+   72  sudo ./play.sh 
+   73  sudo ./gpio_check.sh 
+   74  sudo ./play.sh 
+   75  ps -eaf |grep play
+   76  ps -eaf |grep 123
+   77  logout
+   78  alsamixer 
+   79  man mpg321
+   80  more pl
+   81  more pla
+   82  more play.sh
+   83  ls
+   84  cd music/
+   85  more play.sh
+   86  mpg321 spitfire.mp3
+   87  man mpg321
+   88  mpg321 -g 40 spitfire.mp3
+   89  mpg321 -g 80 spitfire.mp3
+   90  mpg321 -g 10 spitfire.mp3
+   91  nano play
+   92  nano play.sh 
+   93  ps -eaf |grep mpg
+   94  killall -SIGKILL mpg32
+   95  killall -SIGKILL mpg321
+   96  sudo killall -SIGKILL mpg321
+   97  ps -eaf |grep mpg
+   98  ps -eaf |grep play
+   99  sudo ./play.sh 
+  100  killall -SIGKILL mpg321
+  101  sudo killall -SIGKILL mpg321
+  102  pwd
+  103  ps
+  104  ps -eaf |grep mp
+  105  pwd
+  106  ls
+  107  cd music/
+  108  ls
+  109  ./play.sh 
+  110  ps -eaf |grep mp
+  111  history |grep kill
+  112  sudo killall -SIGKILL mpg321
+  113  ps -eaf |grep mp
+  114  ./play.sh 
+  115  sudo killall -SIGKILL mpg321
+  116  sudo ./play.sh 
+  117  sudo killall -SIGKILL mpg321
+  118  more play
+  119  more play.sh 
+  120  cat /sys/class/gpio/gpio4/value
+  121  more play.sh 
+  122  sudo reboot 
+  123  cat /sys/class/gpio/gpio4/value
+  124  cd music/
+  125  sudo ./play.sh 
+  126  sudo killall -SIGKILL mpg321
+  127  cat /sys/class/gpio/gpio4/value
+  128  sudo halt
+  129  cat /sys/class/gpio/gpio4/value
+  130  cd music/
+  131  more play.sh 
+  132  sudo echo "4" > /sys/class/gpio/export
+  133  sudo echo "in" > /sys/class/gpio/gpio4/direction
+  134  cat /sys/class/gpio/gpio4/value
+  135  sudo ./play.sh 
+  136  sudo halt
+  137  cd music/
+  138  ls
+  139  more play.sh 
+  140  history 
+  141  32
+  142  sudo echo "4" > /sys/class/gpio/export
+  143  sudo echo "in" > /sys/class/gpio/gpio4/direction
+  144  cat /sys/class/gpio/gpio4/value
+  145  sudo ./play.sh 
+  146  sudo halt
+  147  cd music/
+  148  sudo ./play.sh 
+  149  sudo halt
+  150  cd music/
+  151  nano play.sh 
+  152  grep 4 play.sh 
+  153  fg
+  154  grep 4 play.sh 
+  155  sudo ./play.sh 
+  156  tail play.sh 
+  157  sudo echo "19" > /sys/class/gpio/unexport
+  158  ls -la
+  159  sudo halt
+  160  pwd
+  161  cd music/
+  162  sudo ./play.sh 
+  163  ps -eaf |grep mp
+  164  sudo halt
+  165  logout
+  166  ls
+  167  ls music/
+  168  iwconfig
+  169  ifconfig
+  170  ping web.mit.edu
+  171  ls
+  172  ls python_games/
+  173  ls Desktop/
+  174  history 
+  175  history >history.txt
